@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         {/* Logo and Description */}
         <div className="text-center md:text-left">
           <img
-            src="src\components\logo.png"
+            src="/logo.png"
             alt="CodeChef-ZHCET"
             className="w-16 mx-auto md:mx-0 mb-4"
           />
