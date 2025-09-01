@@ -42,7 +42,8 @@ export const ContactUsForm: React.FC<ContactUsProps> = ({ serviceId, templateId,
         .sendForm(serviceId, templateId, form.current!, { publicKey })
         .then(
           () => {
-            console.log('SUCCESS!');
+            console.log("success")
+            alert('We recieved your query!!');
             setFormData((data)=>{
               return {
                 name: '',
@@ -54,6 +55,7 @@ export const ContactUsForm: React.FC<ContactUsProps> = ({ serviceId, templateId,
           },
           (error) => {
             console.log('FAILED...', error.text);
+            alert("Please try again after some time")
           },
         );
     };
