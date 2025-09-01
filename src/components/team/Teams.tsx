@@ -7,7 +7,7 @@ import JauwadKhan from './team_photos/jauwadKhan.png';
 import Maimoona from './team_photos/Maimoona.jpg';
 import OjasSharma from './team_photos/OjasSharma.jpg';
 import AbdullahZaidi from './team_photos/AbdullahZaidi.jpg';
-import FatimaArif from './team_photos/FatimaArif.jpg';
+import FatimaArif from './team_photos/fatimaArif.jpg';
 // import AshrafAhmad from './team_photos/AshrafAhmad.jpeg';
 // import AmeerHamza from './team_photos/AmeerHamza.jpg';
 // import AltafQamar from './team_photos/AltafQamar.jpeg';
