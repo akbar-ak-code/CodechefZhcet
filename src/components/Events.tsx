@@ -52,13 +52,13 @@ const Events = () => {
       <h2  data-aos="zoom-in-right" className="text-4xl font-poppins font-bold text-center mb-8">
         Our Past Events
       </h2>
-      <div className="  sm:pl-[2vw] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 justify-center items-center pt-20">
+      <div className=" sm:pl-[2vw] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 justify-start items-center pt-20 overflow-visible md:overflow-hidden"  >
         {events.map((event, index) => (
           <div
           data-aos="fade-up-right"
           data-aos-duration="1000"
             key={index}
-            className="relative group  border-4 border-green-500  shadow-lg overflow-hidden w-[45vw] h-[45vw] sm:w-64 md:h-64 xl:w-[20rem] xl:h-[20rem] flex justify-center items-center"
+            className="relative group  border-4 border-green-500  shadow-lg overflow-hidden w-[45vw] h-[45vw] sm:w-64 md:h-64 xl:w-[20rem] xl:h-[20rem] flex justify-center items-center" 
           >
             <img
               src={event.image}
