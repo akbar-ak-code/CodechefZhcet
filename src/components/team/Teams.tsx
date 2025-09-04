@@ -8,11 +8,17 @@ import Maimoona from './team_photos/Maimoona.jpg';
 import OjasSharma from './team_photos/OjasSharma.jpg';
 import AbdullahZaidi from './team_photos/AbdullahZaidi.jpg';
 import FatimaArif from './team_photos/fatimaArif.jpg';
+import AltafQamar from './team_photos/AltafQamar.jpeg';
+import MohdZaid from './team_photos/MohdZaid.jpeg';
+import AbbasSafvi from './team_photos/AbbasSafvi.jpeg';
+import SyedFaheem from './team_photos/SyedFaheem.jpg';
+import maazbinasad from './team_photos/maazbinasad.jpg'
+import juveiria from './team_photos/juveiriakhan.jpg';
+import nibrashasanzehra from './team_photos/nibrashasanzehra.jpg'
+import alweerakhan from './team_photos/alweerakhan.jpg'
 // import AshrafAhmad from './team_photos/AshrafAhmad.jpeg';
 // import AmeerHamza from './team_photos/AmeerHamza.jpg';
-// import AltafQamar from './team_photos/AltafQamar.jpeg';
 // import MohdZeeshan from './team_photos/MohdZeeshan.jpg';
-// import MohdZaid from './team_photos/MohdZaid.jpeg';
 // import EishanDilshad from './team_photos/EishanDilshad.jpg';
 // import AsnaFatima from './team_photos/AsnaFatima.jpeg';
 // import MdNadimUddin from './team_photos/MdNadimUddin.jpg';
@@ -27,14 +33,12 @@ import FatimaArif from './team_photos/fatimaArif.jpg';
 // import ArsalaanWaheed from './team_photos/ArsalaanWaheed.jpg';
 // import UrjitUpadhyay from './team_photos/UrjitUpadhyay.jpg';
 // import ImtenanAshraf from './team_photos/ImtenanAshraf.jpg';
-// import SyedFaheem from './team_photos/SyedFaheem.jpg';
 // import SadiaAiman from './team_photos/SadiaAiman.jpeg';
 // import RiyanshGupta from './team_photos/RiyanshGupta.jpeg';
 // import HomaMahmood from './team_photos/HomaMahmood.jpg';
 // import Sana from './team_photos/Sana.jpg';
 // import SomyaSaxena from './team_photos/SomyaSaxena.jpg';
 // import ShubhVarshney from './team_photos/ShubhVarshney.jpg';
-// import AbbasSafvi from './team_photos/AbbasSafvi.jpeg';
 // import SabaFeroz from './team_photos/SabaFeroz.jpg';
 // import { useGSAP } from '@gsap/react';
 // import gsap from 'gsap';
@@ -59,25 +63,7 @@ const teams = [
     ],
   },
 
-  {
-    title: 'Mentor',
-    members: [
-      {
-        name: 'Jauwad Jamal Khan',
-        role: 'Mentor',
-        photo: JauwadKhan,
-        contact: 'khanjauwad69@gmail.com',
-        linkedin: 'https://www.linkedin.com/in/jauwad-jamal-khan-36778124b/',
-      },
-      {
-        name: 'Ojas Sharma',
-        role: 'Mentor',
-        photo: OjasSharma,
-        contact: 'ojassharma2004@gmail.com',
-        linkedin: 'https://www.linkedin.com/in/ojas-sharma-860934228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      },
-    ],
-  },
+  
   {
     title: 'Management Team',
     members: [
@@ -88,7 +74,6 @@ const teams = [
       // { name: 'Saba Feroz Khan', role: 'Management Team Member', photo:SabaFeroz, contact: 'sabaferoz.256@gmail.com', linkedin: 'https://www.linkedin.com/in/saba-khan-a10418316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
       // { name: 'Ameer Hamza', role: 'Management Team Member', photo: AmeerHamza, contact: 'gm1036@myamu.ac.in', linkedin: 'https://www.linkedin.com/in/ameer-hamza-629896318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
       // { name: 'Abdullah Zaidi', role: 'Management Team Member', photo: AbdullahZaidi, contact: 'abdullahzaidi1934@gmail.com', linkedin: 'https://www.linkedin.com/in/abdullah-zaidi-118181237/' },
-      // { name: 'Mohammed Zaid', role: 'Management Team Member', photo: MohdZaid, contact: 'zaidgl9226@gmail.com', linkedin: 'https://www.linkedin.com/in/zaid9226?trk=contact-info' },
       // { name: 'Kandarp Gupta', role: 'Management Team Member', photo: KandarpGupta, contact: 'kandarpgupta1953@gmail.com', linkedin: 'https://www.linkedin.com/in/ashraf-ahmad-0a1b6332a?trk=contact-info' },
       // { name: 'Eishan Dilshad', role: 'Management Team Member', photo: EishanDilshad, contact: 'eishandilshad@gmail.com', linkedin: 'https://www.linkedin.com/in/eishan-dilshad-3527a632b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
     ],
@@ -97,7 +82,6 @@ const teams = [
   //   title: 'PR Team',
   //   members: [
   //     { name: 'Asna Fatima', role: 'PR Coordinator', photo: AsnaFatima, contact: 'Asnafatimah6@gmail.com', linkedin: 'http://linkedin.com/in/asna-fatimah6/' },
-  //     { name: 'Altaf Qamar', role: 'Joint PR Coordinator', photo: AltafQamar, contact: 'altafqmr@gmail.com', linkedin: 'https://www.linkedin.com/in/altaf-qamar-b23841295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
   //   ],
   // },
   {
@@ -125,10 +109,10 @@ const teams = [
       // { name: 'Imtenan Ashraf Siddiqui', role: 'Web Development Team Member', photo: ImtenanAshraf, contact: 'imtenanashraf@gmail.com', linkedin: 'linkedin.com/in/imtenan-ashraf-siddiqui' },
     ],
   },
+
   // {
   //   title: 'Editorial Team',
   //   members: [
-  //     { name: 'Syed Faheem Ahmad', role: 'Editorial Team Head', photo: SyedFaheem, contact: 'syedfaheemahmad2002@gmail.com', linkedin: 'https://www.linkedin.com/in/syed-faheem-ahmad-05a78b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
   //     { name: 'Homa Mahmood', role: 'Editorial Team Member', photo: HomaMahmood, contact: 'homamahmood715@gmail.com', linkedin: 'https://www.linkedin.com/in/homa-mahmood-000019275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
   //     { name: 'Somya Saxena', role: 'Editorial Team Member', photo: SomyaSaxena, contact: 'somyasaxena0107@gmail.com', linkedin: 'https://www.linkedin.com/in/somya-saxena-064217296' },
   //     { name: 'Sadia Aiman', role: 'Editorial Team Member', photo: SadiaAiman, contact: 'sadiaaiman05@gmail.com', linkedin: 'https://www.linkedin.com/in/sadia-aiman-a535b52a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
@@ -146,9 +130,24 @@ const teams = [
   //   title: 'Volunteers',
   //   members: [
   //     { name: 'Shubh Varshney', role: 'Volunteer', photo: ShubhVarshney, contact: 'shubhvars2006@gmail.com', linkedin: 'https://www.linkedin.com/in/shubh-varshney-25b897314/' },
-  //     { name: 'Abbas Safvi', role: 'Treasurer', photo: AbbasSafvi, contact: 'abbassafvi6@gmail.com', linkedin: 'https://www.linkedin.com/in/abbas-safvi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ' },
   //   ],
   // },
+  {
+    title: 'Mentor',
+    members: [
+      { name: 'Maaz Bin Asad', role: 'Mentor', photo: maazbinasad, contact: 'maazbinasad29@gmail.com', linkedin: 'https://www.linkedin.com/in/maaz-bin-asad-8a56a2196?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+      {name: 'Ojas Sharma',role: 'Mentor',photo: OjasSharma,contact: 'ojassharma2004@gmail.com',linkedin: 'https://www.linkedin.com/in/ojas-sharma-860934228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',},
+      { name: 'Juveiria Khan', role: 'Mentor', photo: juveiria, contact: 'khan.juvi786@gmail.com', linkedin: 'https://www.linkedin.com/in/juveiria-khan-9514421aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+      { name: 'Nibras Hasan Zehra', role: 'Mentor', photo: nibrashasanzehra, contact: 'nibrashasan11@gmail.com', linkedin: 'https://www.linkedin.com/in/nibras-hasan-zehra ' },
+      { name: 'Alweera Khan', role: 'Mentor', photo: alweerakhan, contact: 'khanalweera03@gmail.com@gmail.com', linkedin: 'https://www.linkedin.com/in/alweerak ' },
+      {name: 'Jauwad Jamal Khan',role: 'Mentor',photo: JauwadKhan,contact: 'khanjauwad69@gmail.com',linkedin: 'https://www.linkedin.com/in/jauwad-jamal-khan-36778124b/',},
+      { name: 'Altaf Qamar', role: 'Mentor', photo: AltafQamar, contact: 'altafqmr@gmail.com', linkedin: 'https://www.linkedin.com/in/altaf-qamar-b23841295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
+      { name: 'Mohammed Zaid', role: 'Mentor', photo: MohdZaid, contact: 'zaidgl9226@gmail.com', linkedin: 'https://www.linkedin.com/in/zaid9226?trk=contact-info' },
+      { name: 'Abbas Safvi', role: 'Mentor', photo: AbbasSafvi, contact: 'abbassafvi6@gmail.com', linkedin: 'https://www.linkedin.com/in/abbas-safvi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ' },
+      { name: 'Syed Faheem Ahmad', role: 'Mentor', photo: SyedFaheem, contact: 'syedfaheemahmad2002@gmail.com', linkedin: 'https://www.linkedin.com/in/syed-faheem-ahmad-05a78b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+      
+    ],
+  },
 ];
 
 
