@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
       {/* Footer Bottom */}
       <div className="bg-lime-950 text-gray-400 text-sm py-4">
         <div className="container mx-auto flex justify-between items-center">
-          <p>© 2024 CodeChef-ZHCET | All rights reserved.</p>
+          <p>© 2025 CodeChef-ZHCET | All rights reserved.</p>
         </div>
       </div>
     </footer>
