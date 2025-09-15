@@ -1,7 +1,9 @@
 // import React, { useRef, useState } from 'react';
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa'; 
 
-import AkbarAliKhan from './team_photos/AkbarAliKhan.jpg'
+// import AkbarAliKhan from './team_photos/AkbarAliKhan.jpg'
+import Akbar2 from './team_photos/Akbar2.jpg'
+
 import SanjitKapoor from './team_photos/SanjitKapoor.jpg'
 import JauwadKhan from './team_photos/jauwadKhan.png';
 import Maimoona from './team_photos/Maimoona.jpg';
@@ -102,7 +104,7 @@ const teams = [
     title: 'Web Development Team',
     members: [
 
-      { name: 'Akbar Ali Khan', role: 'Web Development Team Lead', photo: AkbarAliKhan, contact: 'khanaliakbar7860@gmail.com', linkedin: 'https://www.linkedin.com/in/akbar-ali-khan-2b737a329/' },
+      { name: 'Akbar Ali Khan', role: 'Web Development Team Lead', photo: Akbar2, contact: 'khanaliakbar7860@gmail.com', linkedin: 'https://www.linkedin.com/in/akbar-ali-khan-2b737a329/' },
       // { name: 'Sonali Varshney', role: 'Web Development Team Member', photo: SonaliVarshney, contact: 'sonalivarshney1404@gmail.com', linkedin: 'https://www.linkedin.com/in/sonali-varshney-507041312/' },
       // { name: 'Arsalaan Waheed Ansari', role: 'Web Development Team Member', photo: ArsalaanWaheed, contact: 'arsalaanwaheed2004@gmail.com', linkedin: 'https://www.linkedin.com/in/arsalaan-waheed?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
       // { name: 'Urjit Upadhyay', role: 'Web Development Team Member', photo: UrjitUpadhyay, contact: 'Gm4175urjitupadhyay@gmail.com', linkedin: 'https://www.linkedin.com/in/urjit-upadhyay-049428236' },
